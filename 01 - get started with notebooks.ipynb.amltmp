@@ -24,9 +24,19 @@
         "\n",
         "print(\"Ready to use Azure ML\", azureml.core.VERSION)"
       ],
-      "outputs": [],
-      "execution_count": null,
-      "metadata": {}
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": "Ready to use Azure ML 1.34.0\n"
+        }
+      ],
+      "execution_count": 1,
+      "metadata": {
+        "gather": {
+          "logged": 1633394947751
+        }
+      }
     },
     {
       "cell_type": "markdown",
@@ -51,9 +61,19 @@
         "ws = Workspace.from_config()\n",
         "print(ws.name, \"loaded\")"
       ],
-      "outputs": [],
-      "execution_count": null,
-      "metadata": {}
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": "ict-915-02-jmdl loaded\n"
+        }
+      ],
+      "execution_count": 2,
+      "metadata": {
+        "gather": {
+          "logged": 1633394950683
+        }
+      }
     },
     {
       "cell_type": "markdown",
@@ -72,9 +92,19 @@
         "    compute = ws.compute_targets[compute_name]\n",
         "    print(\"\\t\", compute.name, ':', compute.type)"
       ],
-      "outputs": [],
-      "execution_count": null,
-      "metadata": {}
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": "Compute Resources:\n\t CI-ICT-915-02-JMDL : ComputeInstance\n"
+        }
+      ],
+      "execution_count": 3,
+      "metadata": {
+        "gather": {
+          "logged": 1633394954648
+        }
+      }
     },
     {
       "cell_type": "markdown",
@@ -104,6 +134,13 @@
     },
     "kernel_info": {
       "name": "python3-azureml"
+    },
+    "microsoft": {
+      "host": {
+        "AzureML": {
+          "notebookHasBeenCompleted": true
+        }
+      }
     },
     "nteract": {
       "version": "nteract-front-end@1.0.0"
