@@ -487,6 +487,13 @@
     "kernel_info": {
       "name": "python3-azureml"
     },
+    "microsoft": {
+      "host": {
+        "AzureML": {
+          "notebookHasBeenCompleted": true
+        }
+      }
+    },
     "nteract": {
       "version": "nteract-front-end@1.0.0"
     }
